@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/projects/booki_logo.png",
+        "title": "Booki",
+        "category": "frontend",
+        "technologies": [
+            "HTML",
+            "CSS"
+        ],
+        "gallery": [
+            "/assets/projects/booki_1.png",
+            "/assets/projects/booki_2.png",
+            "/assets/projects/booki_3.png"
+        ]
+    },
+    {
+        "id": 2,
+        "image": "/assets/projects/sophie_logo.png",
+        "title": "Sophie bluel",
+        "category": "frontend",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "REST API"
+        ],
+        "gallery": [
+            "/assets/projects/booki_1.png",
+            "/assets/projects/booki_2.png",
+            "/assets/projects/booki_3.png"
+        ]
+    },
+    {
+        "id": 3,
+        "image": "/assets/projects/kasa_logo.png",
+        "title": "Kasa",
+        "category": "frontend",
+        "technologies": [
+            "React",
+            "React router",
+            "Sass",
+            "Javascript"
+        ],
+        "gallery": [
+            "/assets/projects/booki_1.png",
+            "/assets/projects/booki_2.png",
+            "/assets/projects/booki_3.png"
+        ]
+    },
+    {
+        "id": 4,
+        "image": "/assets/projects/grimoire_logo.png",
+        "title": "Old grimoire",
+        "category": "backend",
+        "technologies": [
+            "Node.js",
+            "Express",
+            "MongoDB"
+        ],
+        "gallery": [
+            "/assets/projects/booki_1.png",
+            "/assets/projects/booki_2.png",
+            "/assets/projects/booki_3.png"
+        ]
+    }
+]
