@@ -5,7 +5,7 @@ function Hero() {
     return (
         <section id="hero" className="hero">
             <div className="hero-logo">
-                <img src="/assets/logowhite.png" alt="Logo" />
+                <img src="https://ironic94.github.io/project-8/assets/logowhite.png" alt="Logo" />
             </div>
             <div className="hero-content">
                 <h1 className="hero-name">
