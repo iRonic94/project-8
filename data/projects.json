@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "/assets/projects-img/booki_logo.png",
+        "image": "https://ironic94.github.io/project-8/assets/projects-img/booki_logo.png",
         "title": "Booki",
         "category": "frontend",
         "description": "Built a responsive accommodation booking website using only HTML and CSS. The project focused on translating a design mockup into a fully responsive user interface.",
@@ -12,13 +12,13 @@
             "CSS"
         ],
         "gallery": [
-            "/assets/projects-img/booki_1.png",
-            "/assets/projects-img/booki_2.png"
+            "https://ironic94.github.io/project-8/assets/projects-img/booki_1.png",
+            "https://ironic94.github.io/project-8/assets/projects-img/booki_2.png"
         ]
     },
     {
         "id": 2,
-        "image": "/assets/projects-img/sophie_logo.png",
+        "image": "https://ironic94.github.io/project-8/assets/projects-img/sophie_logo.png",
         "title": "Sophie bluel",
         "category": "frontend",
         "description": "Developed the interactive features of an existing portfolio website using JavaScript. The project involved DOM manipulation, user authentication, media management, and communication with a REST API to retrieve and update data.",
@@ -31,14 +31,14 @@
             "REST API"
         ],
         "gallery": [
-            "/assets/projects-img/sophie_1.png",
-            "/assets/projects-img/sophie_2.png",
-            "/assets/projects-img/sophie_3.png"
+            "https://ironic94.github.io/project-8/assets/projects-img/sophie_1.png",
+            "https://ironic94.github.io/project-8/assets/projects-img/sophie_2.png",
+            "https://ironic94.github.io/project-8/assets/projects-img/sophie_3.png"
         ]
     },
     {
         "id": 3,
-        "image": "/assets/projects-img/kasa_logo.png",
+        "image": "https://ironic94.github.io/project-8/assets/projects-img/kasa_logo.png",
         "title": "Kasa",
         "category": "frontend",
         "description": "Built a single-page application using React and React Router. The project focused on component-based architecture, dynamic routing, responsive design, and displaying data from a provided API source.",
@@ -51,14 +51,14 @@
             "Javascript"
         ],
         "gallery": [
-            "/assets/projects-img/kasa_1.png",
-            "/assets/projects-img/kasa_2.png",
-            "/assets/projects-img/kasa_3.png"
+            "https://ironic94.github.io/project-8/assets/projects-img/kasa_1.png",
+            "https://ironic94.github.io/project-8/assets/projects-img/kasa_2.png",
+            "https://ironic94.github.io/project-8/assets/projects-img/kasa_3.png"
         ]
     },
     {
         "id": 4,
-        "image": "/assets/projects-img/grimoire_logo.png",
+        "image": "https://ironic94.github.io/project-8/assets/projects-img/grimoire_logo.png",
         "title": "Old grimoire",
         "category": "backend",
         "description": "Developed the backend of a book rating application using Node.js, Express, and MongoDB. Implemented authentication, CRUD operations, image uploads, and database integration.",
@@ -70,8 +70,8 @@
             "MongoDB"
         ],
         "gallery": [
-            "/assets/projects-img/grimoire_1.png",
-            "/assets/projects-img/grimoire_2.png"
+            "https://ironic94.github.io/project-8/assets/projects-img/grimoire_1.png",
+            "https://ironic94.github.io/project-8/assets/projects-img/grimoire_2.png"
         ]
     }
 ]
