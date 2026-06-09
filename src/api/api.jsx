@@ -1,6 +1,8 @@
+const PROJECTS_URL =
+    `${import.meta.env.BASE_URL}data/projects.json`;
 export async function getAllProjects() {
     try {
-        const response = await fetch('/data/projects.json');
+        const response = await fetch(PROJECTS_URL);
 
         if (!response.ok) {
             throw new Error('Failed to load projects');
@@ -14,7 +16,7 @@ export async function getAllProjects() {
 }
 
 export async function getProject(id) {
-    const response = await fetch('/data/projects.json');
+    const response = await fetch(PROJECTS_URL);
 
     if (!response.ok) {
         throw new Error('Failed to load projects');
