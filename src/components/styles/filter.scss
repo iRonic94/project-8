@@ -1,0 +1,21 @@
+.projects-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+}
+
+.projects-filter button {
+    background: none;
+    border: none;
+    color: #8b8b8b;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color .2s ease;
+}
+
+.projects-filter button.active {
+    color: #61DAFB;
+}

@@ -1,3 +1,13 @@
+.expertise {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 1px solid rgba(255, 255, 255, .05);
+    padding: 8rem 0;
+}
+
 .highlight-pink,
 .highlight-blue,
 .highlight-orange {
