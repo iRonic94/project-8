@@ -14,23 +14,3 @@ export async function getAllProjects() {
         throw error;
     }
 }
-
-export async function getProject(id) {
-    const response = await fetch(PROJECTS_URL);
-
-    if (!response.ok) {
-        throw new Error('Failed to load projects');
-    }
-
-    const projects = await response.json();
-
-    const project = projects.find(
-        project => project.id === Number(id)
-    );
-
-    if (!project) {
-        throw new Error("We didn't find the project!");
-    }
-
-    return project;
-}

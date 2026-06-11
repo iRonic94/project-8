@@ -17,7 +17,6 @@ function Carousel({ images }) {
             <button className="carousel-arrow left" onClick={previousImage}> &#10094;</button>
             <img src={images[currentIndex]} alt="" className="carousel-image" />
             <button className="carousel-arrow right" onClick={nextImage}> &#10095;</button>
-
         </div>
     );
 }

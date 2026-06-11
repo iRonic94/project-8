@@ -23,8 +23,7 @@ function Expertise() {
                 </div>
                 <div className="expertise-card">
                     <div className="expertise-subtitle">
-                        <img className="icons"
-                            src="https://cdn.simpleicons.org/nodedotjs/FFFFFF" alt="nodedotjs" />
+                        <img className="icons" src="https://cdn.simpleicons.org/nodedotjs/FFFFFF" alt="nodedotjs" />
                         <h2>
                             <span className="highlight-blue">
                                 Backend
@@ -37,7 +36,7 @@ function Expertise() {
                 </div>
                 <div className="expertise-card">
                     <div className="expertise-subtitle">
-                        <img className="icons" src="https://cdn.simpleicons.org/css/FFFFFF" alt="nodedotjs" />
+                        <img className="icons" src="https://cdn.simpleicons.org/css/FFFFFF" alt="css" />
                         <h2>
                             <span className="highlight-orange">
                                 Web design

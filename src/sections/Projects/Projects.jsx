@@ -14,17 +14,10 @@ function Projects() {
             const data = await getAllProjects();
             setProjects(data);
         }
-
         loadProjects();
     }, []);
 
-    const filteredProjects =
-        selectedCategory === 'all'
-            ? projects
-            : projects.filter(
-                project => project.category === selectedCategory
-            );
-
+    const filteredProjects = selectedCategory === 'all' ? projects : projects.filter(project => project.category === selectedCategory);
     return (
         <section id="projects" className="projects">
             <h1 className="section-title">
