@@ -38,3 +38,9 @@
     background: #ff4d4d;
     box-shadow: 0 0 10px rgba(255, 77, 77, 0.6);
 }
+
+@media (max-width: 768px) {
+    .section-nav {
+        display: none;
+    }
+}

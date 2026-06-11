@@ -29,28 +29,10 @@ function Navigation() {
 
     return (
         <nav className="section-nav">
-
-            <a
-                href="#hero"
-                className={`nav-item ${activeSection === 'hero' ? 'active' : ''}`}
-            >
-                <span className="dot"></span>
-            </a>
-
-            <a
-                href="#expertise"
-                className={`nav-item ${activeSection === 'expertise' ? 'active' : ''}`}
-            >
-                <span className="dot"></span>
-            </a>
-
-            <a
-                href="#projects"
-                className={`nav-item ${activeSection === 'projects' ? 'active' : ''}`}
-            >
-                <span className="dot"></span>
-            </a>
-
+            <a href="#hero" className={`nav-item ${activeSection === 'hero' ? 'active' : ''}`}> <span className="dot"></span></a>
+            <a href="#expertise" className={`nav-item ${activeSection === 'expertise' ? 'active' : ''}`}><span className="dot"></span></a>
+            <a href="#projects" className={`nav-item ${activeSection === 'projects' ? 'active' : ''}`}><span className="dot"></span></a>
+            <a href="#contact" className={`nav-item ${activeSection === 'contact' ? 'active' : ''}`}><span className="dot"></span></a>
         </nav>
     );
 }

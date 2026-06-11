@@ -16,7 +16,7 @@
 }
 
 .hero-logo img {
-    width: 280px;
+    width: min(280px, 70vw);
     height: auto;
 }
 
@@ -41,5 +41,52 @@
     51%,
     100% {
         opacity: 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: 70vh;
+    }
+
+    .hero-content {
+        margin-top: 5rem;
+    }
+
+    .hero-logo img {
+        width: 220px;
+    }
+
+    .hero-name {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        min-height: 60vh;
+    }
+
+    .hero-content {
+        margin-top: 3rem;
+    }
+
+    .hero-logo img {
+        width: 180px;
+    }
+
+    .hero-name {
+        font-size: 2rem;
+    }
+
+    .hero-title {
+        font-size: 1.2rem;
     }
 }

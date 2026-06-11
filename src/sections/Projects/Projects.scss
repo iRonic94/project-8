@@ -12,3 +12,14 @@
     align-self: center;
     margin-bottom: 4rem;
 }
+
+@media (max-width: 768px) {
+    .projects {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .section-title {
+        margin-bottom: 2rem;
+    }
+}

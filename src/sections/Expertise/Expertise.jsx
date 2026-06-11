@@ -9,10 +9,7 @@ function Expertise() {
             <div className="expertise-grid">
                 <div className="expertise-card">
                     <div className="expertise-subtitle">
-                        <img className="icons"
-                            src="https://cdn.simpleicons.org/react/FFFFFF"
-                            alt="React"
-                        />
+                        <img className="icons" src="https://cdn.simpleicons.org/react/FFFFFF" alt="React" />
                         <h2>
                             <span className="highlight-pink">
                                 Frontend
@@ -27,9 +24,7 @@ function Expertise() {
                 <div className="expertise-card">
                     <div className="expertise-subtitle">
                         <img className="icons"
-                            src="https://cdn.simpleicons.org/nodedotjs/FFFFFF"
-                            alt="nodedotjs"
-                        />
+                            src="https://cdn.simpleicons.org/nodedotjs/FFFFFF" alt="nodedotjs" />
                         <h2>
                             <span className="highlight-blue">
                                 Backend
@@ -42,10 +37,7 @@ function Expertise() {
                 </div>
                 <div className="expertise-card">
                     <div className="expertise-subtitle">
-                        <img className="icons"
-                            src="https://cdn.simpleicons.org/css/FFFFFF"
-                            alt="nodedotjs"
-                        />
+                        <img className="icons" src="https://cdn.simpleicons.org/css/FFFFFF" alt="nodedotjs" />
                         <h2>
                             <span className="highlight-orange">
                                 Web design

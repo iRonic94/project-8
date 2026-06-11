@@ -12,21 +12,32 @@
 .modal {
     position: relative;
     display: flex;
-    width: min(1400px, 90vw);
-    height: 750px;
-    background: white;
-    border-radius: 12px;
-    overflow: hidden;
 
+    width: min(900px, 90vw);
+    height: 650px;
+
+    background: white;
+
+    border-radius: 12px;
+
+    overflow: hidden;
 }
 
 .modal-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex: 2;
+    background: #f5f5f5;
+    height: 100%;
+
+    overflow: hidden;
 }
 
 .modal-gallery img {
     width: 100%;
     height: 100%;
+
     object-fit: cover;
 }
 
@@ -77,4 +88,61 @@
 
 .modal-links a:hover {
     opacity: 0.8;
+}
+
+
+@media (max-width: 768px) {
+    .modal {
+        flex-direction: column;
+
+        width: 90vw;
+        max-width: 400px;
+
+        height: auto;
+
+        max-height: 90vh;
+
+        overflow-y: auto;
+    }
+
+    .modal-gallery {
+        flex: none;
+
+        height: 180px;
+    }
+
+    .modal-gallery img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+    .modal-details {
+        flex: none;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .modal {
+        width: 95vw;
+    }
+
+    .modal-gallery {
+        height: 180px;
+    }
+
+    .modal-details {
+        padding: 1rem;
+    }
+
+    .modal-logo {
+        max-width: 120px;
+    }
 }
