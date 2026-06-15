@@ -16,10 +16,10 @@ function Modal({ project, onClose }) {
                         </p>
                         <p>
                             <strong>Website:</strong>{' '}
-                            <a href={project.website} target="_blank" rel="noopener noreferrer">Visit Website</a>
+                            <a href={project.website} target="_blank" rel="">Visit Website</a>
                         </p>
                     </div>
-                    <div className="modal-technologies">{project.technologies.join(' • ')}</div>
+                    {/* <div className="modal-technologies">{project.technologies.join(' • ')}</div> */}
                 </div>
             </div>
         </div>
