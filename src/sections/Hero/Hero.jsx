@@ -14,8 +14,19 @@ function Hero() {
                 <h2 className="hero-title">
                     {'>'} FULL-STACK DEVELOPER<span className="hero-cursor">_</span>
                 </h2>
+                <div className="hero-tech-stack">
+                    <span className="tech-tag">React</span>
+                    <span className="tech-tag">JavaScript</span>
+                    <span className="tech-tag">HTML5</span>
+                    <span className="tech-tag">CSS3</span>
+                    <span className="tech-tag">Vite</span>
+
+                    <span className="tech-tag">Node.js</span>
+                    <span className="tech-tag">Express</span>
+
+                </div>
             </div>
-        </section>
+        </section >
     );
 }
 
