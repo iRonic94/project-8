@@ -3,7 +3,7 @@ function Footer() {
     return (<>
         <footer className="footer">
             <p>
-                © 2025 C.Mario All rights reserved.
+                © 2026 C.Mario All rights reserved.
             </p>
         </footer>
     </>)
